@@ -1,0 +1,117 @@
+@media (max-width:1335px) {
+    #one .header .right nav{
+        margin-left: -38px;
+    }
+}
+
+@media (max-width:1235px) {
+    #one .header .right {
+        width: 35%;
+    }
+
+    body #two .main li:nth-child(3) {
+        width: 63%;
+        margin-left: 21%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:1100px) {
+    #one .header .right {
+        width: 41%;
+    }
+
+    body #three .one .main div {
+        margin-left: 1%;
+        margin-bottom: 70px;
+        width: 29%;
+    }
+
+    body #two .main li:nth-child(3) {
+        width: 66%;
+        margin-left: 18%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:930px) {
+    #one .right{
+        display: none;
+    }
+
+    #one .menu-button {
+        display: block;
+        margin-right: 5%;
+        margin-top: 2.5%;
+    }
+
+    body #two .one .main {
+        display: grid;
+        grid-template-columns: 1fr ;
+        margin-left: 8%;
+        margin-right: 6%;
+        margin-top: 5%;
+        background-color: #fff;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        box-shadow: 0 0 10px var(--black-90);
+        border-radius: 8px;
+    }
+
+    body #two .member {
+        display: grid;
+        grid-template-columns: .9fr;
+        margin-top: 5%;
+    }
+
+    body #two .member .right {
+        margin-top: 40px;
+        margin-left: 18%;
+    }
+
+    body #three .one .main div {
+        margin-left: 15%;
+        margin-bottom: 70px;
+        width: 60%;
+    }
+
+    body #three .one .main img {
+        width: 100%;
+        height: 325px;
+    }
+
+    
+
+}
+
+@media (max-width: 768px) {
+
+        #one .background .top p, #one .background div h1 {
+        color: #fff;
+        font-size: 28px;
+        }
+    
+
+        body #three .one .main div {
+            margin-left: 7%;
+            margin-bottom: 70px;
+            width: 80%;
+        }
+
+        body #three .two .main .middle h2 {
+            color: #fff;
+            padding-top: 120px;
+            font-size: 27px;
+        }
+
+        #four footer .container .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        #four footer .container .two , #four footer .container .three{
+            margin-top: 33px;
+        }
+
+
+}
